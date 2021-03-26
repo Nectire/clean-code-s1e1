@@ -57,7 +57,7 @@ input,matrixbutton{
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +67,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -110,7 +110,7 @@ input#new-task {
   width: 318px;
 }
 
-p > button:hover {
+p > .btn:hover {
   color: #0fc57c;
 }
 
@@ -143,22 +143,22 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete-btn:hover {
+li > .btn.delete-btn:hover {
   color: #cf2323;
 }
 
-button.delete-btn img {
+.btn.delete-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete-btn img:hover {
+.btn.delete-btn img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#todo-list_completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
