@@ -101,7 +101,15 @@ input,
 }
 
 /* New Task */
-p .title {
+.new-task{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.new-task .title {
   display: block;
   margin: 0 0 20px;
 }
@@ -110,7 +118,7 @@ input#new-task {
   width: 318px;
 }
 
-p > .btn:hover {
+.new-task > .btn:hover {
   color: #0fc57c;
 }
 
