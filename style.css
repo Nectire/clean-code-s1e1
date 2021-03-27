@@ -114,7 +114,7 @@ input#new-task {
   width: 318px;
 }
 
-.new-task > .btn:hover {
+.new-task .btn:hover {
   color: #0fc57c;
 }
 
@@ -147,7 +147,7 @@ input#new-task {
   width: 226px;
 }
 
-.list__item > .btn_delete:hover {
+.list__item .btn_delete:hover {
   color: #cf2323;
 }
 
